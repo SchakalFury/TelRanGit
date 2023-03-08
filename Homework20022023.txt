@@ -1,0 +1,22 @@
+1) - mkdir newFolder;
+   - cd newFolder; 
+   - git clone <url>
+
+2) - git init;
+   - git add . ;
+   - git commit -m "message";
+   - git branch -M main;
+   - git remote add origin <url>;
+   - git push -u origin main;
+
+3) - cd newFolder(main);
+   - git fetch <remote-name>;
+
+4) git status - отображает, какие файлы были изменены, какие были добавлены 
+   в индекс, какие нет; какие файлы ждут коммита в индексе;
+   
+   git log - отображает историю коммитов в обратном временном порядке, т.е 
+   коммиты, сделанные последними, будут в самом начале списка
+ 
+   git remote -v - используется в рабочей директории, отображает <url> удалённых репозиториев,
+   которые связаны с локальным
